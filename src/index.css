@@ -104,8 +104,8 @@ button:focus-visible {
 }
 
 .add_task_wrapper input {
-  width: 250px;
-  padding: 0.65rem;
+  width: 230px;
+  padding: 0.57rem;
   border: 1px solid #845afc;
   background-color: #1b1a41;
 }
@@ -115,10 +115,32 @@ button:focus-visible {
 }
 
 .add_task_wrapper button {
-  width: calc(100% - 250px);
-  padding: 0.58rem;
+  width: calc(100% - 230px);
+  padding: 0.65rem;
   font-size: 90%;
+  text-align: center;
   color: #ffffff;
   border-radius: 0;
   background-color: #845afc;
+}
+
+.task_list_wrapper .task_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #845afc;
+  padding: 0.65rem;
+  margin: 2rem 0rem;
+  border-radius: 6px;
+}
+
+.text-label {
+  color: #ffffff;
+}
+
+.icon_wrapper {
+  i {
+    color: #ffffff;
+    cursor: pointer;
+  }
 }
