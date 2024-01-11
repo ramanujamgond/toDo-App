@@ -105,6 +105,7 @@ button:focus-visible {
 
 .add_task_wrapper input {
   width: 230px;
+  color: #ffffff;
   padding: 0.57rem;
   border: 1px solid #845afc;
   background-color: #1b1a41;
@@ -124,13 +125,23 @@ button:focus-visible {
   background-color: #845afc;
 }
 
+.task_list_wrapper {
+  max-height: 430px;
+  overflow-x: hidden;
+}
+
+.task_list_wrapper::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 .task_list_wrapper .task_cards {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #845afc;
   padding: 0.65rem;
-  margin: 2rem 0rem;
+  margin: 1rem 0rem;
   border-radius: 6px;
 }
 
