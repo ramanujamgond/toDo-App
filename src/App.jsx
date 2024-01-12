@@ -4,7 +4,7 @@ import TaskList from "./assets/components/TaskList";
 
 function App() {
   const [taskList, setTaskList] = useState([]);
-  const [editedValue, setEditedValue] = useState("");
+  const [editedValue, setEditedValue] = useState([]);
 
   return (
     <>

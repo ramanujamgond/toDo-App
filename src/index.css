@@ -155,3 +155,10 @@ button:focus-visible {
     cursor: pointer;
   }
 }
+
+.active__card {
+  border: 0.15em solid hsl(186 100% 69%);
+  background-color: hsl(186 100% 69%) !important;
+  box-shadow: inset 0px 0px 0.5em 0px hsl(186 100% 69%),
+    0px 0px 0.5em 0px hsl(186 100% 69%);
+}
